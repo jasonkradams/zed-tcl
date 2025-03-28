@@ -1,0 +1,11 @@
+id = "tcl"
+name = "Tcl"
+description = "Syntax highlighting for .tcl and .tm files"
+version = "0.0.1"
+schema_version = 1
+authors = ["Jason Adams <jason.k.r.adams@gmail.com>"]
+repository = "https://github.com/jasonkradams/zed-tcl"
+
+[grammars.tcl]
+repository = "https://github.com/jasonkradams/tree-sitter-tcl"
+commit = "dde532e0ed20075e34c3ad331c47374fc0171622"

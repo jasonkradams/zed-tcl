@@ -1,0 +1,33 @@
+# Grammar volatiles
+grammars/
+dsl.d.ts
+*.wasm
+*.obj
+*.o
+
+# Rust build artifacts
+/target/
+/Cargo.lock
+**/*.rs.bk  # Rust temporary backup files
+
+# Binaries
+*.exe
+*.dll
+*.dylib
+*.so
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# macOS
+.DS_Store
+
+# Ignore Cargo.lock for libraries/extensions
+Cargo.lock
+
+# Ignore the target build directory
+target/
